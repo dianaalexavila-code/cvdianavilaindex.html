@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Dian Avila</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .profile-img {
+            width: 200px;
+            border-radius: 50%;
+        }
+        .section-title {
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading Utama -->
+    <div class="container text-center mt-4">
+        <h1>Curriculum Vitae</h1>
+       <img src="C:/Users//diana/Downloads/Cv Dian Avila/image/foto-dian.jpg" alt="foto-dian" width="200" style="border-radius: 50%;">
+        <h2 class="mt-2">Dian Avila</h2>
+    </div>
+    <div class="container mt-4">
+        <!-- Deskripsi Diri -->
+        <h3 class="section-title">Tentang Saya</h3>
+<p>Saya adalah mahasiswa Universitas Siber Asia, program studi PJJ Informatika, 
+yang juga aktif bekerja di sebuah yayasan sosial. 
+Di yayasan tersebut, saya mendampingi lansia dan anak-anak asuh non-panti 
+dengan penuh empati dan kesabaran.</p>
+
+<p>Selain mendampingi, saya terbiasa mengelola data administrasi yayasan, 
+mencatat informasi anak asuh dan lansia, serta membantu koordinasi kegiatan sosial 
+seperti santunan dan acara kebersamaan. 
+Pengalaman ini membuat saya terbiasa bekerja dalam tim, 
+beradaptasi dengan berbagai kondisi, dan memiliki keterampilan komunikasi interpersonal yang baik.</p>
+
+<p>Dengan semangat belajar yang tinggi, saya berusaha menggabungkan keterampilan teknis 
+maka dari itu saya mengambil prodi PJJ Informatika dengan pengalaman sosial, 
+sehingga mampu memberikan kontribusi nyata baik di bidang akademik maupun masyarakat.</p>
+
+        <!-- Link Internal/Eksternal -->
+        <h3 class="section-title">Tautan</h3>
+        <ul>
+            <li><a href="https://unsia.ac.id" target="_blank">Universitas Siber Asia</a></li>
+            <li><a href="https://github.com/dianaalexavila-code" target="_blank">Github Dian Avila</a></li>
+            <li><a href="https://www.instagram.com/ywihdatul.muslimat" target="_blank">Instagram Yayasan Wihdatul Muslimat</a></li>
+        </ul>
+
+        <!-- Gambar Tambahan -->
+        <h3 class="section-title">Galeri</h3>
+        <div class="row">
+            <div class="col-md-4"><img src="image/logo.jpg" alt="Logo"></div>
+            <div class="col-md-4"><img src="image/foto1.jpg" alt="Foto 1"></div>
+            <div class="col-md-4"><img src="image/foto2.jpg" alt="Foto 2"></div>
+        </div>
+        <!-- Tabel -->
+        <h3 class="section-title">Pendidikan</h3>
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Tahun</th>
+                    <th>Institusi</th>
+                    <th>Program</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025 - Sekarang</td>
+                    <td>Universitas Siber Asia</td>
+                    <td>PJJ Informatika</td>
+                </tr>
+                <tr>
+                    <td>2010 - 2013</td>
+                    <td>SMA Negeri 01 Bantarkawung</td>
+                    <td>Jurusan IPA</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="section-title">Pengalaman</h3>
+        <table class="table table-striped" id="pengalaman">
+            <thead class="table-light">
+                <tr>
+                    <th>Tahun</th>
+                    <th>Organisasi/Perusahaan</th>
+                    <th>Posisi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2020 - Sekarang</td>
+                    <td>Yayasan Wihadatul Muslimat Jakarta Pusat</td>
+                    <td>Staff IT & Administrasi</td>
+        <!-- List -->
+        <h3 class="section-title">Keterampilan</h3>
+        <ol>
+            <li>mampu bekerja tim Mudah bersosialisasi Komunikasi interpersonal</li>
+            <li>Problem solving</li>
+            <li>Pengelolaan data yayasan</li>
+        </ol>
+
+        <h3 class="section-title">Hobi</h3>
+        <ul>
+            <li>menggambar dan desain</li>
+            <li>Traveling dan Mancing</li>
+            <li>Olahraga ringan</li>
+        </ul>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
